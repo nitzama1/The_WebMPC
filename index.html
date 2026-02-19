@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebMCP — Make Your Business Discoverable by AI Agents</title>
+  <meta name="description" content="WebMCP SaaS makes any business website discoverable and actionable by AI agents — zero code, zero infrastructure. Register once, get found by ChatGPT, Claude, and every AI assistant.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="WebMCP — The AI Map for Your Business">
+  <meta property="og:description" content="Make your business discoverable by ChatGPT, Claude, and AI agents worldwide. Zero code. Under 5 minutes.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="og-image.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="WebMCP — The AI Map for Your Business">
+  <meta name="twitter:description" content="Make your business discoverable by ChatGPT, Claude, and AI agents worldwide.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== Navigation ===== -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <div class="logo-icon">W</div>
+        WebMCP
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#use-cases">Use Cases</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#developers">Developers</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+        <a href="#cta" class="btn btn-primary" style="padding: 10px 22px; font-size: 0.88rem;">Get Started</a>
+        <button class="mobile-menu-btn" id="mobileMenu" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== Hero Section ===== -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero-badge">
+        <span class="dot"></span>
+        MCP Protocol Compatible
+      </div>
+
+      <h1>
+        Put Your Business on the<br>
+        <span class="highlight">AI Map</span>
+      </h1>
+
+      <p>
+        Make your business discoverable by ChatGPT, Claude, and every AI assistant — in under 5 minutes. Zero code. Zero infrastructure. Just register and go live.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#cta" class="btn btn-primary btn-large">Register Your Business</a>
+        <a href="#developers" class="btn btn-ghost btn-large">View API Docs →</a>
+      </div>
+
+      <!-- Hero Visual — AI Profile Card Preview -->
+      <div class="hero-visual">
+        <div class="hero-card">
+          <div class="hero-profile">
+            <div class="blob-container">
+              <div class="blob-ring"></div>
+              <div class="blob"></div>
+            </div>
+            <div class="profile-info">
+              <h3>Michal's Dental Clinic</h3>
+              <p>Family dental care in Tel Aviv — appointments, cleanings, whitening</p>
+              <span class="status-badge"><span class="dot"></span> You're live ✓</span>
+            </div>
+          </div>
+
+          <div class="capability-chips">
+            <span class="chip">🗓️ Appointment Availability</span>
+            <span class="chip">📍 Location & Hours</span>
+            <span class="chip">💰 Service Pricing</span>
+            <span class="chip">📞 Contact Info</span>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-item">
+              <div class="stat-number">247</div>
+              <div class="stat-label">AI Queries This Week</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">18</div>
+              <div class="stat-label">Links Generated</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number" style="color: var(--status-live);">12</div>
+              <div class="stat-label">Leads Received</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Trust Bar ===== -->
+  <div class="trust-bar">
+    <div class="container">
+      <p>Compatible with leading AI agent frameworks</p>
+      <div class="trust-logos">
+        <span class="trust-logo">ChatGPT</span>
+        <span class="trust-logo">Claude</span>
+        <span class="trust-logo">MCP Protocol</span>
+        <span class="trust-logo">Gemini</span>
+        <span class="trust-logo">Copilot</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== How It Works ===== -->
+  <section class="how-it-works" id="how-it-works">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-label">How It Works</span>
+        <h2>Live on the AI Map in 3 Simple Steps</h2>
+        <p>No code, no plugins, no developers needed. Register your website and let AI agents find your business.</p>
+      </div>
+
+      <div class="steps-grid stagger-children">
+        <div class="step-card animate-on-scroll">
+          <div class="step-number">1</div>
+          <h3>Enter Your Website URL</h3>
+          <p>Tell us your website address and describe what your business offers in plain language. That's it.</p>
+          <span class="step-time">30 seconds</span>
+        </div>
+        <div class="step-card animate-on-scroll">
+          <div class="step-number">2</div>
+          <h3>We Scan & Detect</h3>
+          <p>Our system reads your public site and automatically detects your services, products, availability, and pricing.</p>
+          <span class="step-time">~2 minutes</span>
+        </div>
+        <div class="step-card animate-on-scroll">
+          <div class="step-number">3</div>
+          <h3>You're on the AI Map ✓</h3>
+          <p>Your hosted MCP server goes live instantly. ChatGPT, Claude, and every AI assistant can now find and recommend your business.</p>
+          <span class="step-time">Instant</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Features ===== -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-label">Features</span>
+        <h2>Everything Your Business Needs to Be AI-Ready</h2>
+        <p>A fully hosted platform — we handle all the technical complexity so you don't have to.</p>
+      </div>
+
+      <div class="features-grid stagger-children">
+        <div class="feature-card animate-on-scroll">
+          <div class="feature-icon indigo">🌐</div>
+          <h3>Hosted MCP Server</h3>
+          <p>Your own MCP-compatible server, fully managed by us. No infrastructure, no maintenance, no code.</p>
+        </div>
+        <div class="feature-card animate-on-scroll">
+          <div class="feature-icon green">📡</div>
+          <h3>Live Data, Always Fresh</h3>
+          <p>We read your public website in real time — no cached data, no stale info. When you update your site, AI agents see it immediately.</p>
+        </div>
+        <div class="feature-card animate-on-scroll">
+          <div class="feature-icon amber">🔗</div>
+          <h3>Payment Link Generation</h3>
+          <p>AI agents can generate pre-filled payment links for your products. Customers tap, confirm, pay — zero friction.</p>
+        </div>
+        <div class="feature-card animate-on-scroll">
+          <div class="feature-icon indigo">🏢</div>
+          <h3>Multi-Location Support</h3>
+          <p>Franchise or chain? Manage all your locations from one login. Each site gets its own independent AI profile.</p>
+        </div>
+        <div class="feature-card animate-on-scroll">
+          <div class="feature-icon green">📊</div>
+          <h3>Real-Time Dashboard</h3>
+          <p>Watch AI agents discover your business live. See query counts, link generations, and leads — all updating in real time.</p>
+        </div>
+        <div class="feature-card animate-on-scroll">
+          <div class="feature-icon amber">🔒</div>
+          <h3>Privacy Controls</h3>
+          <p>You decide what AI agents can see. Toggle data categories on or off — contact info, address, pricing — with full control.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== AI Agent Section ===== -->
+  <section class="agent-section" id="agent-section">
+    <div class="container">
+      <div class="agent-grid">
+        <div class="agent-content animate-on-scroll">
+          <span class="section-label">For AI Agents</span>
+          <h2>One Registry. Thousands of Businesses.</h2>
+          <p>AI agents query a single MCP-compatible endpoint to discover businesses, read live data, and generate action links — with zero authentication required.</p>
+
+          <ul class="agent-features">
+            <li>
+              <span class="check">✓</span>
+              <span><strong>MCP Protocol compliant</strong> — works with ChatGPT, Claude, and any MCP-compatible framework</span>
+            </li>
+            <li>
+              <span class="check">✓</span>
+              <span><strong>No authentication needed</strong> — public registry, open access, rate-limited for protection</span>
+            </li>
+            <li>
+              <span class="check">✓</span>
+              <span><strong>Live data at query time</strong> — no cached results, always current information</span>
+            </li>
+            <li>
+              <span class="check">✓</span>
+              <span><strong>Structured responses</strong> — catalogs, availability, pricing in machine-readable format</span>
+            </li>
+            <li>
+              <span class="check">✓</span>
+              <span><strong>Payment link primitives</strong> — generate pre-filled payment links for human completion</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="agent-code-block animate-on-scroll">
+          <div class="code-header">
+            <div class="code-dots"><span></span><span></span><span></span></div>
+            <span class="code-lang">MCP Response — find_businesses</span>
+          </div>
+          <div class="code-body">
+<pre>{
+  <span class="code-key">"businesses"</span>: [
+    {
+      <span class="code-key">"name"</span>: <span class="code-string">"Michal's Dental Clinic"</span>,
+      <span class="code-key">"location"</span>: <span class="code-string">"Tel Aviv, Israel"</span>,
+      <span class="code-key">"capabilities"</span>: [
+        <span class="code-string">"appointment_availability"</span>,
+        <span class="code-string">"service_pricing"</span>,
+        <span class="code-string">"contact_info"</span>
+      ],
+      <span class="code-key">"paymentLinksAvailable"</span>: <span class="code-bool">true</span>,
+      <span class="code-key">"availableSlots"</span>: [
+        {
+          <span class="code-key">"date"</span>: <span class="code-string">"2026-02-20"</span>,
+          <span class="code-key">"time"</span>: <span class="code-string">"09:00"</span>,
+          <span class="code-key">"available"</span>: <span class="code-bool">true</span>
+        }
+      ]
+    }
+  ]
+}</pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Use Cases ===== -->
+  <section class="journeys" id="use-cases">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-label">Use Cases</span>
+        <h2>Real Scenarios, Real Results</h2>
+        <p>See how different businesses and customers benefit from WebMCP every day.</p>
+      </div>
+
+      <div class="journey-cards stagger-children">
+        <div class="journey-card animate-on-scroll">
+          <div class="journey-emoji">🦷</div>
+          <h3>Michal's Dental Clinic</h3>
+          <p class="scenario">"Find me a dentist in Tel Aviv available Thursday morning."</p>
+          <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 16px;">
+            An AI agent finds Michal's clinic via WebMCP, shows available slots, and generates a booking link. The patient taps, confirms, and is booked in 90 seconds — without a phone call.
+          </p>
+          <div class="result">✓ 2 new patients this week via AI agents</div>
+        </div>
+
+        <div class="journey-card animate-on-scroll">
+          <div class="journey-emoji">☕</div>
+          <h3>Aromatic Coffee Roasters</h3>
+          <p class="scenario">"Order 1kg of Ethiopian blend from Aromatic Coffee."</p>
+          <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 16px;">
+            The AI agent reads the live catalog via WebMCP, confirms the item at ₪85, generates a pre-filled payment link. The customer pays with one tap — order placed.
+          </p>
+          <div class="result">✓ ₪850 in AI-sourced orders this month</div>
+        </div>
+
+        <div class="journey-card animate-on-scroll">
+          <div class="journey-emoji">🏋️</div>
+          <h3>FitZone Studios</h3>
+          <p class="scenario">"What yoga classes are available near me this evening?"</p>
+          <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 16px;">
+            With 5 locations managed from one login, FitZone's franchise operator sees AI-sourced leads flowing across all studios with an aggregated dashboard view.
+          </p>
+          <div class="result">✓ 23 leads across 5 locations this week</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Pricing ===== -->
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-label">Pricing</span>
+        <h2>Simple, Transparent Pricing</h2>
+        <p>Two tiers. No hidden fees. Start with Data Exposure and upgrade when you're ready for payment links.</p>
+      </div>
+
+      <div class="pricing-grid">
+        <div class="pricing-card animate-on-scroll">
+          <h3>Data Exposure</h3>
+          <div class="price">Free*</div>
+          <div class="price-sub">During early access</div>
+          <p class="description">Get discovered by AI agents. Your business info, services, and availability — visible to ChatGPT, Claude, and every AI assistant.</p>
+          <ul class="pricing-features">
+            <li><span class="icon">✓</span> Hosted MCP server</li>
+            <li><span class="icon">✓</span> AI agent discoverability</li>
+            <li><span class="icon">✓</span> Live data reading</li>
+            <li><span class="icon">✓</span> Privacy controls</li>
+            <li><span class="icon">✓</span> Real-time dashboard</li>
+            <li><span class="icon">✓</span> Multi-location support</li>
+          </ul>
+          <a href="#cta" class="btn btn-ghost">Get Started</a>
+        </div>
+
+        <div class="pricing-card featured animate-on-scroll">
+          <div class="pricing-badge">Most Popular</div>
+          <h3>PayLink</h3>
+          <div class="price">Free*</div>
+          <div class="price-sub">During early access · 1% commission on transactions later</div>
+          <p class="description">Everything in Data Exposure, plus AI agents can generate pre-filled payment links for your customers to complete.</p>
+          <ul class="pricing-features">
+            <li><span class="icon">✓</span> Everything in Data Exposure</li>
+            <li><span class="icon">✓</span> Payment link generation</li>
+            <li><span class="icon">✓</span> Pre-filled checkout links</li>
+            <li><span class="icon">✓</span> Lead attribution tracking</li>
+            <li><span class="icon">✓</span> Payment link lifecycle logs</li>
+            <li><span class="icon">✓</span> Priority support</li>
+          </ul>
+          <a href="#cta" class="btn btn-primary">Get Started</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Developer Section ===== -->
+  <section class="developer" id="developers">
+    <div class="container">
+      <div class="dev-grid">
+        <div class="dev-content animate-on-scroll">
+          <span class="section-label">For Developers</span>
+          <h2>Connect Your AI Agent in 5 Minutes</h2>
+          <p>No account required. No API key. Point your MCP client at our registry endpoint and start querying businesses immediately.</p>
+
+          <div class="dev-steps">
+            <div class="dev-step">
+              <span class="dev-step-num">1</span>
+              <p><strong>Copy the endpoint URL</strong> — one click, you're done</p>
+            </div>
+            <div class="dev-step">
+              <span class="dev-step-num">2</span>
+              <p><strong>Add as MCP server</strong> in your agent configuration</p>
+            </div>
+            <div class="dev-step">
+              <span class="dev-step-num">3</span>
+              <p><strong>Send a test query</strong> — receive structured business data</p>
+            </div>
+          </div>
+
+          <div class="endpoint-block">
+            <span class="endpoint-url">https://api.webmcp.com/v1/mcp</span>
+            <button class="copy-btn" id="copyEndpoint" onclick="copyEndpoint()">Copy</button>
+          </div>
+        </div>
+
+        <div class="agent-code-block animate-on-scroll">
+          <div class="code-header">
+            <div class="code-dots"><span></span><span></span><span></span></div>
+            <span class="code-lang">MCP Tool — generate_payment_link</span>
+          </div>
+          <div class="code-body">
+<pre><span class="code-comment">// Request</span>
+{
+  <span class="code-key">"tool"</span>: <span class="code-string">"generate_payment_link"</span>,
+  <span class="code-key">"arguments"</span>: {
+    <span class="code-key">"subBusinessId"</span>: <span class="code-string">"uuid-v4"</span>,
+    <span class="code-key">"item"</span>: <span class="code-string">"Ethiopian Blend 1kg"</span>,
+    <span class="code-key">"amountCents"</span>: <span class="code-number">8500</span>
+  }
+}
+
+<span class="code-comment">// Response</span>
+{
+  <span class="code-key">"link_url"</span>: <span class="code-string">"https://webmcp.com/pay/abc123"</span>,
+  <span class="code-key">"expires_at"</span>: <span class="code-string">"2026-02-21T10:00:00Z"</span>,
+  <span class="code-key">"status"</span>: <span class="code-string">"pending"</span>
+}</pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-label">FAQ</span>
+        <h2>Common Questions</h2>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item animate-on-scroll">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            <h4>How does WebMCP work without installing anything?</h4>
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p class="faq-answer-inner">We host your MCP server entirely on our platform. When you register your website URL, we scan your public pages and create an AI-readable profile. There's nothing to install on your site — we read your public data live at query time, just like Google reads your site for search.</p>
+          </div>
+        </div>
+
+        <div class="faq-item animate-on-scroll">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            <h4>Can AI agents make purchases or book appointments autonomously?</h4>
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p class="faq-answer-inner">No — by design. AI agents can discover your business and generate pre-filled links, but every transaction requires a real human to click the link and confirm. This eliminates spam orders and fraud risk. The AI prepares, the human completes.</p>
+          </div>
+        </div>
+
+        <div class="faq-item animate-on-scroll">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            <h4>What data do AI agents see about my business?</h4>
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p class="faq-answer-inner">Only your public website data — the same information any visitor can see. You control exactly which categories are visible (contact info, address, pricing, etc.) through privacy toggles. Opted-out categories are never surfaced to AI agents.</p>
+          </div>
+        </div>
+
+        <div class="faq-item animate-on-scroll">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            <h4>How long does it take to get set up?</h4>
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p class="faq-answer-inner">Under 5 minutes. Enter your URL, describe your business, confirm the capabilities we detect, and you're live. No waiting period, no verification steps. Your AI profile is active the moment you finish the wizard.</p>
+          </div>
+        </div>
+
+        <div class="faq-item animate-on-scroll">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            <h4>What AI assistants can find my business?</h4>
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p class="faq-answer-inner">Any MCP-compatible AI agent — including ChatGPT, Claude, Gemini, Copilot, and custom agent frameworks. Our registry uses the open MCP (Model Context Protocol) standard, ensuring broad compatibility as the AI agent ecosystem grows.</p>
+          </div>
+        </div>
+
+        <div class="faq-item animate-on-scroll">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            <h4>Do I need to update my website for the AI profile to change?</h4>
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p class="faq-answer-inner">Yes — and that's the beauty of it. We read your site live at every query, so when you update your website (change prices, add services, adjust availability), AI agents see the changes on the next query. No manual sync needed.</p>
+          </div>
+        </div>
+
+        <div class="faq-item animate-on-scroll">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            <h4>How secure are the payment links?</h4>
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p class="faq-answer-inner">Every payment link is cryptographically signed, single-use, and expires after 24 hours. The amount, item, and recipient cannot be altered after generation. No business credentials or payment data are ever stored on our platform.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA Section ===== -->
+  <section class="cta-section" id="cta">
+    <div class="container">
+      <h2>Ready to put your business on the AI map?</h2>
+      <p>Join hundreds of businesses already discoverable by ChatGPT, Claude, and AI assistants worldwide.</p>
+      <a href="#" class="btn btn-primary btn-large">Register Your Business — Free</a>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>
+            <div class="logo-icon" style="width:32px;height:32px;border-radius:8px;background:var(--gradient-blob);display:flex;align-items:center;justify-content:center;color:white;font-size:0.75rem;font-weight:800;">W</div>
+            WebMCP
+          </h3>
+          <p>Making every business discoverable by AI agents. Zero code, zero infrastructure, zero hassle.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#use-cases">Use Cases</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Developers</h4>
+          <ul>
+            <li><a href="#developers">API Documentation</a></li>
+            <li><a href="#developers">MCP Endpoint</a></li>
+            <li><a href="#faq">Integration Guide</a></li>
+            <li><a href="#">GitHub</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 WebMCP. All rights reserved.</p>
+        <div class="social-links">
+          <a href="#" aria-label="GitHub">⌂</a>
+          <a href="#" aria-label="Twitter">𝕏</a>
+          <a href="#" aria-label="LinkedIn">in</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== JavaScript ===== -->
+  <script src="script.js"></script>
+</body>
+</html>
