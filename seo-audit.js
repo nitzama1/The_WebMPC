@@ -15,6 +15,7 @@ class SEOAuditor {
   }
 
   runAudit() {
+    this.checkSearchEngineVerification();
     this.checkMetaTags();
     this.checkHeadings();
     this.checkImages();
@@ -24,6 +25,31 @@ class SEOAuditor {
     this.checkMobileFriendly();
     this.calculateScore();
     this.generateReport();
+  }
+
+  checkSearchEngineVerification() {
+    const googleMeta = document.querySelector('meta[name="google-site-verification"]');
+    const bingMeta = document.querySelector('meta[name="msvalidate.01"]');
+    const yandexMeta = document.querySelector('meta[name="yandex-verification"]');
+
+    if (googleMeta) {
+      this.addCheck('Google Verification', 'pass', 'Google verification meta tag found');
+    } else {
+      this.addCheck('Google Verification', 'info', 'Google verification meta tag not found (optional if using file method)');
+    }
+
+    if (bingMeta) {
+      this.addCheck('Bing Verification', 'pass', 'Bing verification meta tag found');
+    } else {
+      this.addCheck('Bing Verification', 'warning', 'Bing verification meta tag not found');
+      this.addRecommendation('Add Bing Webmaster verification: <meta name="msvalidate.01" content="YOUR_CODE">');
+    }
+
+    if (yandexMeta) {
+      this.addCheck('Yandex Verification', 'pass', 'Yandex verification meta tag found');
+    } else {
+      this.addCheck('Yandex Verification', 'info', 'Yandex verification not configured');
+    }
   }
 
   checkMetaTags() {
