@@ -3,16 +3,16 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://webmcp.com/</loc>
+    <loc>https://be-mcp.com/</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://webmcp.com/"/>
-    <xhtml:link rel="alternate" hreflang="he" href="https://webmcp.com/?lang=he"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://be-mcp.com/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://be-mcp.com/?lang=he"/>
   </url>
 
   <url>
-    <loc>https://webmcp.com/contact.html</loc>
+    <loc>https://be-mcp.com/contact.html</loc>
     <lastmod>2026-02-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

@@ -1,11 +1,11 @@
 # WebMCP robots.txt
-# https://webmcp.com
+# https://be-mcp.com
 
 User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://webmcp.com/sitemap.xml
+Sitemap: https://be-mcp.com/sitemap.xml
 
 # Crawl-delay for respectful crawling
 Crawl-delay: 1
