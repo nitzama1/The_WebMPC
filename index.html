@@ -27,6 +27,117 @@
 
   <!-- Styles -->
   <link rel="stylesheet" href="style.css">
+
+  <!-- Structured Data - JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "name": "WebMCP",
+        "url": "https://webmcp.com",
+        "logo": "https://webmcp.com/favicon.svg",
+        "description": "AI-Readiness Platform for Your Business - Make any business discoverable and actionable by AI agents",
+        "sameAs": [
+          "https://github.com/webmcp",
+          "https://twitter.com/webmcp",
+          "https://linkedin.com/company/webmcp"
+        ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "email": "hello@be-mcp.com",
+          "contactType": "customer service",
+          "availableLanguage": ["English", "Hebrew"]
+        }
+      },
+      {
+        "@type": "WebSite",
+        "name": "WebMCP",
+        "url": "https://webmcp.com",
+        "description": "AI-Readiness Platform for Your Business - Zero code, zero infrastructure. One scan, instant AI discovery by ChatGPT, Claude, and every AI assistant.",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://webmcp.com/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "WebMCP",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD",
+          "description": "Free AI Discovery tier with option to upgrade for payment link features"
+        },
+        "featureList": [
+          "AI-Ready Storefront",
+          "Live Data Reading",
+          "Payment Link Generation",
+          "AI-Ready Score",
+          "Multi-Location Support",
+          "Privacy Controls"
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How does WebMCP work without installing anything?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We scan your public website and create an AI-readable capability profile entirely on our platform. There's nothing to install on your site — we read your public data live at query time, just like search engines read your site for indexing."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can AI agents make purchases or book appointments autonomously?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No — by design. AI agents can discover your business and generate pre-filled links, but every transaction requires a real human to click the link and confirm. This eliminates spam orders and fraud risk. The AI prepares, the human completes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What data do AI agents see about my business?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Only your public website data — the same information any visitor can see. You control exactly which categories are visible (contact info, address, pricing, etc.) through privacy toggles. Opted-out categories are never surfaced to AI agents."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the AI-Ready Score?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Your AI-Ready Score (0–100) measures how well AI agents can understand and represent your business. It considers factors like structured data, service descriptions, pricing clarity, and contact accessibility. A higher score means better AI discovery and more leads."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does it take to get set up?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Under 5 minutes. Enter your URL, describe your business, review the capabilities we detect, and approve with one click. Your AI profile is active the moment you finish — no waiting period, no verification steps."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What AI assistants can find my business?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Any MCP-compatible AI agent — including ChatGPT, Claude, Gemini, Copilot, and custom agent frameworks. We use the open MCP (Model Context Protocol) standard, ensuring broad compatibility as the AI agent ecosystem grows."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
 

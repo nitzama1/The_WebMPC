@@ -1,0 +1,17 @@
+# WebMCP robots.txt
+# https://webmcp.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://webmcp.com/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Disallow common paths (if they exist in the future)
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+Disallow: /tmp/

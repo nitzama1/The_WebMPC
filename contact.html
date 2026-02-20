@@ -16,6 +16,45 @@
 
   <!-- Styles -->
   <link rel="stylesheet" href="style.css">
+
+  <!-- Structured Data - JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ContactPage",
+        "name": "Contact Us — WebMCP",
+        "description": "Get in touch with WebMCP. Request onboarding, sales inquiries, or technical support for making your business AI-ready.",
+        "url": "https://webmcp.com/contact.html",
+        "mainEntity": {
+          "@type": "Organization",
+          "name": "WebMCP",
+          "url": "https://webmcp.com",
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "email": "hello@be-mcp.com",
+              "contactType": "customer service",
+              "availableLanguage": ["English", "Hebrew"]
+            },
+            {
+              "@type": "ContactPoint",
+              "email": "demo@be-mcp.com",
+              "contactType": "sales",
+              "availableLanguage": ["English", "Hebrew"]
+            }
+          ]
+        }
+      },
+      {
+        "@type": "WebSite",
+        "name": "WebMCP",
+        "url": "https://webmcp.com"
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
 
